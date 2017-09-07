@@ -62,7 +62,7 @@ public class MedianFilterTest {
     @BeforeClass
     public static void setUpClass() throws IOException {
         seqThresh = 1000;
-filterWindow =3;
+filterWindow =21;
 String path = "sampleinputfile.txt";
         inputFull = populateArr(path, MILLION);
         inputHalf = populateArr(path, HALF_MILLION);
